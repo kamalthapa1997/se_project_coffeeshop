@@ -33,12 +33,12 @@
   padding-top: 24px;
 }
 
-.cards {
+.card {
   max-width: 600px;
   width: 600px;
 }
 
-.cards__list {
+.card__list {
   padding-left: 0;
 }
 .cards__list-item {

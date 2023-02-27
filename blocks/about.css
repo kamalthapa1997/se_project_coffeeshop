@@ -32,6 +32,7 @@
   line-height: 30px;
   margin: 0;
   padding-bottom: 20px;
+  box-sizing: border-box;
 }
 .content__paragraph:last-of-type {
   padding-bottom: 0;
@@ -45,7 +46,7 @@
   top: -152px;
   left: -129px;
 }
-.about__circle_animation_blurred {
+.circle__animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite alternate;
 }
 @keyframes pulsate {

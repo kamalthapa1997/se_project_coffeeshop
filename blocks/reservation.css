@@ -11,6 +11,11 @@
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .reservation__form {
   display: flex;
