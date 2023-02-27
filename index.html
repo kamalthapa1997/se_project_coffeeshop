@@ -31,11 +31,19 @@
             src="images/logo_coffee_shop.svg"
             alt="Coffeeshop Logo"
           />
-          <ul class="nav__list">
-            <li class="nav__links">Menu</li>
-            <li class="nav__links">Recipes</li>
-            <li class="nav__links">Book a table</li>
-            <li class="nav__links">Contacts</li>
+          <ul class="nav__lists">
+            <li class="nav__list">
+              <a href="#link-menu" class="nav__link"> Menu</a>
+            </li>
+            <li class="nav__list">
+              <a href="#link-recipes" class="nav__link">Recipes</a>
+            </li>
+            <li class="nav__list">
+              <a href="#link-reservation" class="nav__link">Book a table</a>
+            </li>
+            <li class="nav__list">
+              <a href="#link-contacts" class="nav__link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <h1 class="title">
@@ -67,7 +75,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="menu">
+        <section id="link-menu" class="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__discriptions">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -148,67 +156,89 @@
             </div>
           </div>
         </section>
-        <section class="recipes">
+        <section id="link-recipes" class="recipes">
           <h3 class="recipes__title">recipes</h3>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your-brewing convience:
           </p>
           <div class="recipes__video">
-            <figure class="recipes__iframe">
+            <div class="recipes__iframe">
               <iframe
-                width="480"
-                height="273"
+                class="iframe__video"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               >
               </iframe>
-              <figcaption class="recipes__video-caption">
+              <p class="recipes__video-caption">
                 Aeropress recipe &nbsp;
                 <span class="caption__divider"></span>&nbsp; ~5 min
-              </figcaption>
-            </figure>
-            <figure class="recipes__iframe">
+              </p>
+            </div>
+            <div class="recipes__iframe">
               <iframe
-                width="480"
-                height="273"
+                class="iframe__video"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <figcaption class="recipes__video-caption">
+              <p class="recipes__video-caption">
                 French press recipe &nbsp;
                 <span class="caption__divider"></span>&nbsp; ~15 min
-              </figcaptio>
-            </figure>
+              </p>
+            </div>
           </div>
         </section>
-        <section class="reservation">
+        <section id="link-reservation" class="reservation">
           <h3 class="reservation__title">Book a table</h3>
-          <div class=" form reservation__form">
+          <div class="form reservation__form">
             <form class="form">
               <fieldset class="form__fieldset">
                 <label class="form__label" for="username">name *</label>
-                <input class="form__input" id="username" name="username"  type="text" placeholder="Name Surname">
-                </fieldset>
-                <fieldset class="form__fieldset">
-                <label class="form__label" for="number" >Number of guests *</label>
-                <input class="form__input" type="number" min="1" max="8" id="number" placeholder="1-8">
-                </fieldset>
-                <fieldset class="form__fieldset">
-                <label class="form__label" for="datetime">Date & Time *</label>
-                <input type="datetime-local" id="datetime" class="form__input">
-                </fieldset>
-                <fieldset class="form__fieldset">
-                <label for="email" class="form__label">Your email</label>
-                <input type="email" class="form__input" placeholder="email@email.com">
+                <input
+                  class="form__input"
+                  id="username"
+                  name="username"
+                  type="text"
+                  placeholder="Name Surname"
+                />
               </fieldset>
               <fieldset class="form__fieldset">
-                <button class="form__input form__button" type="submit">Book a table</button>
+                <label class="form__label" for="number"
+                  >Number of guests *</label
+                >
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  id="number"
+                  placeholder="1-8"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="datetime">Date & Time *</label>
+                <input
+                  type="datetime-local"
+                  id="datetime"
+                  class="form__input"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <label for="mail" class="form__label">Your email</label>
+                <input
+                  id="mail"
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button class="form__input form__button" type="submit">
+                  Book a table
+                </button>
               </fieldset>
 
               <fieldset class="form__fieldset form__fieldset-checkbox">
@@ -218,42 +248,68 @@
                   name="agree-checkbox"
                   id="agree-checkbox"
                 />
-                <label for="agree-checkbox" class="form__label ">I agree with the terms of use.</label>
+                <label for="agree-checkbox" class="form__label"
+                  >I agree with the terms of use.</label
+                >
               </fieldset>
             </form>
           </div>
-
         </section>
         <section class="about">
           <h3 class="content__title">About the coffee shop</h3>
           <div class="about__content">
-            <p class="content__paragraph">Our coffee shop is located in the Practicum library's hall. It features 6 tables and free WiFi.</p>
-              <p class="content__paragraph">
-              Our main mission is keeping guests cozy and energized.</p>
-              <p class="content__paragraph">
-              Besides that, we try to reduce our environment impact -- so we don't sell single-use cups. But you can buy one of our resuable cups!
+            <p class="content__paragraph">
+              Our coffee shop is located in the Practicum library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="content__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="content__paragraph">
+              Besides that, we try to reduce our environment impact -- so we
+              don't sell single-use cups. But you can buy one of our resuable
+              cups!
             </p>
           </div>
           <div class="circle"></div>
           <div class="circle about__circle_animation_blurred"></div>
-
         </section>
       </main>
-      <footer class="footer">
+      <footer id="link-contacts" class="footer">
         <div class="footer__contents">
-        <div class="footer__content">
-          <img src="/images/practicum_logo.svg" alt="logo" class="footer__logo">
-</div>
-        <div class="footer__social">
-          <h3 class="footer__social-heading">Social media</h3>
-          <ul class="footer__list">
-            <li class="footer__list-item footer__list-column"> <a href="#" class="footer__social-link "><img class="footer__social-icon" src="/images/facebook_white.svg" alt="Facebook Logo"></a> Facebook</li>
-            <li class="footer__list-item footer__list-column"> <a href="#" class="footer__social-link "><img class="footer__social-icon" src="/images/instagram_white.svg" alt="Instagram Logo"></a>Instagram</li>
-          </ul>
+          <div class="footer__content">
+            <img
+              src="/images/practicum_logo.svg"
+              alt="logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item footer__list-column">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Facebook Logo"
+                /></a>
+                Facebook
+              </li>
+              <li class="footer__list-item footer__list-column">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Instagram Logo" /></a
+                >Instagram
+              </li>
+            </ul>
+          </div>
         </div>
-
-      </div>
-        <p class="footer__list-item footer__copyright">&copy;2022 Kamal Thapa</p>
+        <p class="footer__list-item footer__copyright">
+          &copy;2022 Kamal Thapa
+        </p>
       </footer>
     </div>
   </body>

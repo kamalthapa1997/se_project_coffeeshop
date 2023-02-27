@@ -18,6 +18,11 @@
   align-items: center;
   padding-top: 80px;
   padding-bottom: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
 }
 .form__label {
   display: block;
@@ -34,6 +39,7 @@
 .form__input[type="email"] {
   color: #838383;
   font-weight: normal;
+  padding: 10px;
 }
 .form__fieldset {
   padding-bottom: 32px;
@@ -66,6 +72,7 @@
   line-height: 30px;
   height: 60px;
   min-width: 385px;
+  box-sizing: border-box;
 }
 
 .form__fieldset-checkbox {
