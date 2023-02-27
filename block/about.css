@@ -37,7 +37,7 @@
 .content__paragraph:last-of-type {
   padding-bottom: 0;
 }
-.circle {
+.about__circle {
   min-width: 426px;
   height: 426px;
   background-color: #2f80ed;
