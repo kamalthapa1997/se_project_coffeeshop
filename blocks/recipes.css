@@ -10,9 +10,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: 52px;
-  padding: 100px 0 24px 80px;
+  margin: 100px 0 24px 80px;
   max-width: 580px;
-  margin: 0;
+  padding: 0;
 }
 .recipes__subtitle {
   padding-left: 80px;
@@ -22,7 +22,7 @@
   line-height: 30px;
   margin: 0;
 }
-.recipes__iframes {
+.recipes__videos {
   display: flex;
   justify-content: center;
   column-gap: 40px;
@@ -42,10 +42,11 @@
   font-size: 20px;
   line-height: 30px;
   display: flex;
+  margin: 0;
 }
 .recipes__video-caption-divider {
   flex-grow: 1;
 }
-.recipes__videos {
+.recipes__video {
   margin: 0;
 }

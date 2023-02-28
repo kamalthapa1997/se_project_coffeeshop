@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
 }
-.menu__discriptions {
+.menu__subtitle {
   font-family: noto serif;
   font-style: normal;
   font-weight: normal;
@@ -31,4 +31,11 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 24px;
+}
+.menu__cards {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
 }

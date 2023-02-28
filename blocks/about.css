@@ -11,9 +11,9 @@
   padding-top: 100px;
   padding-left: 80px;
   z-index: 1;
-  font-family: inter;
+  font-family: "inter";
   font-weight: 500;
-  font-style: normal;
+
   font-size: 44px;
   line-height: 52px;
   margin: 0;
@@ -25,9 +25,8 @@
   padding-right: 80px;
 }
 .about__paragraph {
-  font-family: noto serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: "noto serif";
+
   font-size: 20px;
   line-height: 30px;
   margin: 0;

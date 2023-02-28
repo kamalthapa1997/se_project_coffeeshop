@@ -1,3 +1,11 @@
+.form {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+}
+
 .form__label {
   display: block;
   padding-bottom: 8px;
@@ -7,39 +15,21 @@
   font-size: 16px;
   line-height: 20px;
 }
-.form__input[type="text"],
-.form__input[type="number"],
-.form__input[type="datetime-local"],
-.form__input[type="email"] {
-  color: #838383;
-  font-weight: normal;
-  padding: 10px;
+.form__label:last-child {
+  padding: 0;
 }
 .form__fieldset {
   padding-bottom: 32px;
   min-width: 385px;
   margin: 0;
   border: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
 .form__button {
   background-color: #2f83ed;
   padding: 0;
   font-weight: 500;
   border: 0;
-}
-
-.form__input-checkbox {
-  border-radius: 4px;
-  min-width: 20px;
-  min-height: 20px;
-  vertical-align: middle;
-}
-.form__label[for="agree-checkbox"] {
-  display: inline;
-}
-.form__input {
   font-family: Inter;
   font-style: normal;
   font-size: 20px;
@@ -47,13 +37,41 @@
   height: 60px;
   min-width: 385px;
   box-sizing: border-box;
+  border-radius: 4px;
+  transition: opacity 0.5s linear;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+.form__input-checkbox {
+  border-radius: 2px;
+  min-width: 20px;
+  min-height: 20px;
+  vertical-align: middle;
+}
+
+.form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  height: 60px;
+  min-width: 385px;
+  box-sizing: border-box;
+  color: #838383;
+  font-weight: normal;
+  padding: 0 5px;
+  margin-bottom: 32px;
+  border-radius: 4px;
 }
 
 .form__fieldset-checkbox {
   display: flex;
   justify-content: center;
   column-gap: 12px;
-}
-.form__label[for="agree-checkbox"] {
   padding: 0;
+  border: 0;
+  margin: 32px 0 0;
+  border-radius: 2px;
 }
