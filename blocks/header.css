@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.title {
+.header__title {
   font-family: "Inter";
   max-width: 729px;
   margin-top: 80px;
@@ -22,7 +22,7 @@
   padding-left: 80px;
   margin-bottom: 0px;
 }
-.title__span {
+.header__title__span {
   color: #2f80ed;
   font-style: italic;
   font-family: noto serif;
@@ -48,7 +48,7 @@
   right: 5px;
   top: 124px;
 }
-.paragraph {
+.header__paragraph {
   position: absolute;
   bottom: 40px;
   width: 100%;
@@ -58,14 +58,14 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-.paragraph__times {
+.header__paragraph__times {
   margin: 0;
   padding-left: 0;
 }
-.paragraph__hour {
+.header__paragraph__hour {
   list-style-type: none;
 }
-.paragraph__list {
+.header__paragraph__list {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -73,6 +73,6 @@
   line-height: 20px;
   color: #6f6f6f;
 }
-.paragraph__address {
+.header__paragraph__address {
   margin: 0;
 }

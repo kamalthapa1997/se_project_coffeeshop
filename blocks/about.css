@@ -6,7 +6,7 @@
   overflow: hidden;
   position: relative;
 }
-.content__title {
+.about__title {
   max-width: 251px;
   padding-top: 100px;
   padding-left: 80px;
@@ -24,7 +24,7 @@
   padding-bottom: 173px;
   padding-right: 80px;
 }
-.content__paragraph {
+.about__paragraph {
   font-family: noto serif;
   font-weight: normal;
   font-style: normal;
@@ -34,7 +34,7 @@
   padding-bottom: 20px;
   box-sizing: border-box;
 }
-.content__paragraph:last-of-type {
+.about__paragraph:last-of-type {
   padding-bottom: 0;
 }
 .about__circle {
@@ -46,7 +46,7 @@
   top: -152px;
   left: -129px;
 }
-.about__circle-animation_blurred {
+.about__circle-animation {
   animation: pulsate 1.3s ease-in-out infinite alternate;
 }
 @keyframes pulsate {
