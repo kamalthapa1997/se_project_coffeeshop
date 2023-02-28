@@ -32,7 +32,7 @@
   margin-top: 0;
   margin-bottom: 32px;
 }
-.menu__cards {
+.card__menu {
   display: flex;
   flex-flow: wrap;
   justify-content: center;

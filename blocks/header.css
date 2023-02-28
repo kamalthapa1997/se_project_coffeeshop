@@ -22,7 +22,7 @@
   padding-left: 80px;
   margin-bottom: 0px;
 }
-.header__title__span {
+.header__title-span {
   color: #2f80ed;
   font-style: italic;
   font-family: noto serif;
@@ -58,14 +58,14 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-.header__paragraph__times {
+.header__times {
   margin: 0;
   padding-left: 0;
 }
-.header__paragraph__hour {
+.header__paragraph-hour {
   list-style-type: none;
 }
-.header__paragraph__list {
+.header__paragraph-list {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
