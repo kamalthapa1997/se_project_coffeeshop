@@ -43,7 +43,7 @@
   line-height: 30px;
   display: flex;
 }
-.recipes__caption_divider {
+.recipes__video-caption-divider {
   flex-grow: 1;
 }
 .recipes__videos {

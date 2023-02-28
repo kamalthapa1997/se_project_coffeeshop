@@ -46,7 +46,7 @@
   top: -152px;
   left: -129px;
 }
-.about__circle__animation_blurred {
+.about__circle-animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite alternate;
 }
 @keyframes pulsate {

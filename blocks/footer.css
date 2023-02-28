@@ -6,10 +6,7 @@
 .footer__contents {
   display: flex;
 }
-.footer__logo {
-  width: 116px;
-  height: 21px;
-}
+
 .footer__social {
   margin-left: auto;
 }
