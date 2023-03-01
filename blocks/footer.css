@@ -11,7 +11,7 @@
   margin-left: auto;
 }
 .footer__social-heading {
-  font-family: "inter";
+  font-family: inter, arial, sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
@@ -25,7 +25,7 @@
   padding: 0;
 }
 .footer__list-item {
-  font-family: "inter";
+  font-family: inter, arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -42,7 +42,7 @@
   align-items: center;
 }
 .footer__copyright {
-  font-family: "inter";
+  font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

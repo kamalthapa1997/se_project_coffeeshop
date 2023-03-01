@@ -10,7 +10,7 @@
 }
 .menu__title {
   color: #ffffff;
-  font-family: "inter";
+  font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 .menu__subtitle {
-  font-family: "noto serif";
+  font-family: "noto serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
