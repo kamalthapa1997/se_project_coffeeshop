@@ -59,7 +59,6 @@
   box-sizing: border-box;
   width: 100%;
   padding: 0 80px;
-  align-items: self-end;
 }
 .header__paragraph {
   font-family: "inter";
