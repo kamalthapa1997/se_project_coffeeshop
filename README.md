@@ -14,3 +14,5 @@ This is the second project of the Software Engineer program at Practicum by Yand
 ## Plan on improving the project
 
 Add your ideas here :)
+
+https://kamalthapa1997.github.io/se_project_coffeeshop/
